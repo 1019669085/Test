@@ -49,9 +49,7 @@ public class Test1 {
 	            System.out.println("参数：" + a + " , " + b);
 
 	            GET get = method.getAnnotation(GET.class);
-	            System.out.println("注解1：" + get.value());
-	            System.out.println("注解2：" + get.value());
-	            System.out.println("注解3：" + get.value());
+	            System.out.println("注解：" + get.value());
 	            return null;
 	        }
 	    });
