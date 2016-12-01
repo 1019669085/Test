@@ -1,5 +1,5 @@
 package com.test.one;
 
 public class Bean {
- ggggg
+	private int a;
 }
